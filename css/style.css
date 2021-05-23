@@ -112,11 +112,13 @@ body{
 }
 
 .icono2{
+    display: block;
     width: 15px;
     height: 15px;
     background: #cfc;
 }
 .icono1{
+    display: block;
     width: 15px;
     height: 15px;
     background: #ff0;

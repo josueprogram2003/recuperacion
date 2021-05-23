@@ -53,14 +53,14 @@ function guardar(ev) {
         filita.cells[2].innerHTML = producto.value;
         filita.cells[3].innerHTML = precio.value;
         filita.cells[4].innerHTML = cantidad.value;
-        filita.cells[5].innerHTML = subtotal.value;
+        filita.cells[5].innerHTML = precio.value*cantidad.value;
         limpiar();
         estado = 0;
     }
 }
 
-function editar() {
-    filita = row.parentNode.parentNode;
+function editar(ahref) {
+    filita = ahref.parentNode.parentNode;
     fecha.value = filita.cells[0].innerHTML;
     nombre.value = filita.cells[1].innerHTML;
     producto.value = filita.cells[2].innerHTML;
@@ -70,8 +70,8 @@ function editar() {
     estado = 1;
 }
 
-function eliminar() {
-    let fil = row.parentNode.parentNode;
+function eliminar(ahref) {
+    let fil = ahref.parentNode.parentNode;
     fil.parentNode.removeChild(fil);
 }
 
