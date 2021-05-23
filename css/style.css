@@ -110,3 +110,14 @@ body{
 .cabeza{
     background-color: yellow;
 }
+
+.icono2{
+    width: 15px;
+    height: 15px;
+    background: #cfc;
+}
+.icono1{
+    width: 15px;
+    height: 15px;
+    background: #ff0;
+}   

@@ -17,7 +17,7 @@
             </div>
             <h1 class="letra">Sistema de Ventas</h1>
         </div>
-        <form class="form" onsubmit="event.preventDefault(); guardar();">
+        <form class="form">
             <div class="container-form">
                 <div class="linea">
                     <label for="fecha" class="label">Fecha</label>
@@ -52,7 +52,7 @@
                     <input type="number" id="cantidad" class="box">
                 </div>
                 <div class="linea-boton">
-                <button class="button" type="submit">Guardar</button>
+                <button class="button" onclick="event.preventDefault(); guardar();">Guardar</button>
                 </div>
             </div>
         </form>
