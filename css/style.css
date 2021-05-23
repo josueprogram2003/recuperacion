@@ -122,4 +122,15 @@ body{
     width: 15px;
     height: 15px;
     background: #ff0;
-}   
+}
+.filasombra{
+    background: #0f0;
+}
+
+#resultado-error{
+    display: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #f00;
+    font-weight: bold;
+}
